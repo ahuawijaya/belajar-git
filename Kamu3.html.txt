@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html>
+<head>
+<body>
+<title>SC</title>
+<h4="text-align:center;">Untuk Steven</h4>
+<p>
+Biarkan apa yang terjadi biarlah berlalu.
+</p>
+<br>Jangan biarkan perkataan orang lain memperngaruhimu , lakukan apa yang menurutmy yang terbaik</br>
+<img src="https://www.rujukannews.com/wp-content/uploads/2022/03/Screenshot_1-1.jpg" alt="Gambar ayang" width="500" height="500">
+<p>Berikut ini adalah jelmaan cewe dajjal</p>
+<ol type="i">
+<li>Michelle</li>
+<li>KO</li>
+</ol>
+</body>
+</head>
+</html>

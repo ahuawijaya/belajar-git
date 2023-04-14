@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<style>
+    /* div {
+        color: green;
+        display: inline;
+    } */
+    section{
+        border: 1px solid black;
+        height: 600px;
+        width: 600px;
+        /* display:flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-items: normal;
+        justify-content: space-between; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 2fr 3fr;
+        grid-template-areas:
+        "satu tiga"
+        "dua tiga" 
+        "empat lima";
+
+        
+    }
+    #satu{
+        grid-area:satu ;
+    }
+    #dua{
+        grid-area: dua;
+
+    }
+    #tiga{
+        grid-area: tiga;
+    }
+    #empat{
+        grid-area: empat;
+    }
+    #lima{
+        grid-area: lima;
+    }
+    div{
+        border: 1px solid black;
+        /* height: 100px;
+        width: 100px; */
+        background-color: yellow;
+    }
+</style>
+<body>
+    <section>
+        <div id="satu">1</div>
+        <div id="dua">2</div>
+        <div id="tiga">3</div>
+        <div id="empat">4</div>
+        <div id="lima">5</div>
+    </section>
+</body>
+</html>
